@@ -33,7 +33,7 @@ $(document).scroll(function () {
   }
 });
 
-$(document).scroll(function () {
+/*$(document).scroll(function () {
   //stick sidebar to top of page
   var y = $(this).scrollTop();
   var sidebar = $('#sidebar').offset().top;
@@ -42,7 +42,7 @@ $(document).scroll(function () {
   } else {
       $('aside').removeClass('stickyaside');
   }
-});
+});*/
 
 
 (function($) {

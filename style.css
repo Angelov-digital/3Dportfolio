@@ -657,7 +657,7 @@ body {
     height: auto;
 } 
 .třidéimg{
-    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    max-height: 100vh; /* Ensures the image does not exceed the width of its container */
     height: auto; /* Allows the image to maintain its aspect ratio */
     display: block; /* Makes sure the image is treated as a block element */
     margin: 0 auto; /* Centers the image horizontally within its container */
