@@ -121,6 +121,10 @@ var modal4 = document.getElementById("project4-modal");
 var modal5 = document.getElementById("project5-modal");
 var modal6 = document.getElementById("project6-modal");
 
+var modal7 = document.getElementById("project7-modal");
+var modal8 = document.getElementById("project8-modal");
+var modal9 = document.getElementById("project9-modal");
+
 
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -130,6 +134,10 @@ var trigger3 = document.getElementById("project3");
 var trigger4 = document.getElementById("project4");
 var trigger5 = document.getElementById("project5");
 var trigger6 = document.getElementById("project6");
+
+var trigger7 = document.getElementById("project7");
+var trigger8 = document.getElementById("project8");
+var trigger9 = document.getElementById("project9");
 
 
 
@@ -167,6 +175,21 @@ trigger6.onclick = function(){
   
   
 }
+trigger7.onclick = function(){
+  modal7.style.display = "block";
+  
+  
+}
+trigger8.onclick = function(){
+  modal8.style.display = "block";
+  
+  
+}
+trigger9.onclick = function(){
+  modal9.style.display = "block";
+  
+  
+}
 
 
 
@@ -177,6 +200,10 @@ var span3 = document.getElementById("close3");
 var span4 = document.getElementById("close4");
 var span5 = document.getElementById("close5");
 var span6 = document.getElementById("close6");
+
+var span7 = document.getElementById("close7");
+var span8 = document.getElementById("close8");
+var span9 = document.getElementById("close9");
 
 
 
@@ -200,3 +227,12 @@ span6.onclick = function() {
   modal6.style.display = "none";  
 }
 
+span7.onclick = function() {
+  modal7.style.display = "none";  
+}
+span8.onclick = function() {
+  modal8.style.display = "none";  
+}
+span9.onclick = function() {
+  modal9.style.display = "none";  
+}

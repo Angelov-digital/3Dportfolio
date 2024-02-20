@@ -1351,12 +1351,13 @@ body {
 /*Contact*/
 .contact{
     background-color: #0f0f0f;
+    width: 100%;
     position: relative;
     top: -100px;
     text-align: center;
     font-size: 15px;
-    padding-bottom: 50px;
     color: #ffffff;
+    margin-top: 50px;
 }
 
 .contact p {
