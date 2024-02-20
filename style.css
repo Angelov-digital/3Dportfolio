@@ -275,7 +275,6 @@ body {
 }
 /*NAVIGATION*/
 #logo {
-    background-color: white;
 }
 .logo {
     position: fixed;
@@ -487,17 +486,18 @@ body {
     bottom: 10px;
     font-size: 1.1vw;
     font-family: spartansemi;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
     /*background: linear-gradient(90deg, #0b0123e7, transparent) #0b0123e7;*/
     padding: 12px 33px;
     border-radius: 50px;
-    transition: background-color 0.9s;
+    transition: all 0.3s ease;
     color: #ececec;
+    
+    
 }
 .nav-link:hover, .nav-link:focus {
-    background: linear-gradient(90deg,#0a0022 , transparent) #CA1D43;
+    outline: 1px solid rgb(255, 255, 255);
     color: #fff;
+    transition: all 0.3s ease;
 }
 .nav-link2 {
     font-size: 1.1vw;
