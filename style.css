@@ -1434,7 +1434,7 @@ body {
 .projects{
     width: 100%;
     position: relative;
-    bottom: 76px;
+    bottom: 0px;
     text-align: center;  
     
 }
