@@ -168,6 +168,14 @@
     .header4{
         font-size: 1.6rem;
     }
+    .headermax{
+        font-size: 7vw;
+        font-family: spartan;
+        text-align: left;
+        margin-left: 2%;
+        margin-top: 12%;
+        margin-bottom: 15px;
+    }
 }
 /*orientation*/
 .left{
@@ -444,7 +452,7 @@ body {
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background: #e4ddfc;
+    background: #b6b6b6;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
@@ -661,7 +669,14 @@ body {
     height: auto; /* Allows the image to maintain its aspect ratio */
     display: block; /* Makes sure the image is treated as a block element */
     margin: 0 auto; /* Centers the image horizontally within its container */
-
+}
+@media only screen and (max-width: 700px) {
+    .třidéimg{
+        max-width: 100%; /* Ensures the image does not exceed the width of its container */
+        height: auto; /* Allows the image to maintain its aspect ratio */
+        display: block; /* Makes sure the image is treated as a block element */
+        margin: 0 auto; /* Centers the image horizontally within its container */
+    }  
 }
 .třidéimghalf{
     max-width: 50%;
@@ -731,8 +746,19 @@ body {
     bottom: 70px;
 }
 @media only screen and (max-width: 700px) {
+    .namewrapper{
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #ffffff; 
+       
+    }
     .A{
-        font-size: 15rem;
+        font-size: 11rem;
     }
     .name {
       font-size: 50px;
@@ -1388,7 +1414,8 @@ body {
 }
 @media only screen and (max-width: 700px) {
     .contact{
-        padding-top:70px;
+        margin-top: 110px;
+        padding-top:0px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -1669,6 +1696,7 @@ body {
     .modal-content {
       width: 100%;
       height: auto;
+      margin-top: 35%;
     }
     .modal-contentvideo {
         width: 100%;
